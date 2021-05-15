@@ -3,7 +3,8 @@ import React from 'react'
 import { Route, Switch } from "react-router-dom";
 import BlogPage from './pages/blog/blog.component'
 import HomePage from './pages/home/home.component';
-import Header from './components/header.component';
+import Header from './components//header/header.component';
+import Footer from './components/footer/footer.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={HomePage}></Route>
         <Route path="/blog" component={BlogPage}></Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
