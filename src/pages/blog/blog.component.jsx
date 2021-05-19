@@ -4,7 +4,7 @@ import BlogList from "../../components/blogList/blogList.component";
 const BlogPage = () => {
 
   return (
-    <div className="blog-page">
+    <div className="blog-page page">
       <BlogList />
     </div>
   );

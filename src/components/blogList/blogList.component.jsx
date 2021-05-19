@@ -5,8 +5,6 @@ import "./blogList.style.scss";
 import BlogOverview from "../blogOverview/blogOverview";
 import { getBlogList } from "../../apis";
 
-
-
 const BlogList = () => {
   const [blogData, setBlogData] = useState([]);
 
@@ -21,18 +19,18 @@ const BlogList = () => {
     };
     getData();
   }, []);
-  console.log(blogData)
   return (
     <div id="blog-preview">
       <h1 className="preview-header">Blog</h1>
       <hr class="center-diamond"></hr>
       <div className="preview">
-        {blogData
-          .map(({ id, ...props }) => (
-            <BlogOverview key={id} {...props} />
-          ))}
+        {blogData ?blogData
+          .map(({ ...props }) => (
+            <BlogOverview {...props} />
+          )) : null}
       </div>
     </div>
   );
 };
+
 export default BlogList;

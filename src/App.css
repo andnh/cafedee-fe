@@ -3,13 +3,30 @@
 }
 
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   padding: 20px 60px;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.page {
+  padding-bottom: 2.5rem;
+}
+
+.page-footer {
+  /* position: absolute; */
+  bottom: 50px;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
 }

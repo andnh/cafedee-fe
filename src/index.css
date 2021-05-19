@@ -1,15 +1,15 @@
 html {
-  font-family:sans-serif;
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%
- }
- body {
-  margin:0;
-  font-size:14px;
-  font-family:NotoSans-Regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight:400;
-  line-height:1.5385615384;
-  color:#34495E;
-  background:#f2f2f2;
-  -webkit-font-smoothing:antialiased
- }
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: NotoSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5385615384;
+  color: #34495e;
+  background: #f2f2f2;
+  -webkit-font-smoothing: antialiased;
+}

@@ -8,3 +8,12 @@ export const getBlogList = async () => {
     console.log("ERROR", e);
   }
 }
+
+export const getBlogDetail = async (id) => {
+  try {
+    const res = await axios.get(`http://localhost:8080/blog/view?id=${id}`)
+    return res.data
+  } catch (e) {
+    console.log("ERROR", e);
+  }
+}

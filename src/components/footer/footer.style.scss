@@ -1,4 +1,4 @@
-.page-footer{
+.page-footer {
   hr {
     margin-top: 1.5rem;
     border-width: 1px 0px 0px;
@@ -7,27 +7,26 @@
   .footer-title {
     font-weight: 700;
     font-size: 1.25rem;
-    
   }
-  .logo-container{
+  .logo-container {
     display: flex;
     justify-content: space-between;
   }
-  .link-container{
+  .link-container {
     display: flex;
     justify-content: space-between;
     width: 250px;
   }
-  .footer-right{
+  .footer-right {
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: flex-end;
   }
-  .fa-copyright{
+  .fa-copyright {
     margin-right: 5px;
   }
-  .row{
+  .row {
     display: flex;
     justify-content: space-between;
   }
