@@ -1,4 +1,4 @@
-$main-color: #BDA26B;
+$main-color: #bda26b;
 #blog-preview {
   padding: 0 25px 0 25px;
   h1 {
@@ -16,5 +16,9 @@ $main-color: #BDA26B;
     &.center-diamond {
       background: $main-color;
     }
+  }
+  .is-tag {
+    text-align: center;
+    font-style: italic;
   }
 }
