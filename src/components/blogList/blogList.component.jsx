@@ -24,7 +24,7 @@ const BlogList = () => {
       }
     };
     getData();
-  }, [isTag]);
+  }, [isTag, tag]);
 
   return (
     <div id="blog-preview">

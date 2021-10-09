@@ -18,12 +18,12 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-right">
-          <div className="link-container">
-            <span className="content-link" href="">Trang chủ</span>
-            <span className="content-link px-2" href="">Về chúng mình</span>
-            <span className="content-link content-link-outer-right" href="">Liên hệ</span>
-          </div>
-            <div className="footer-copyright"><i class="far fa-copyright"></i>Copyright 2019 Cafédee</div>
+            <div className="link-container">
+              <span className="content-link" href="">Trang chủ</span>
+              <span className="content-link px-2" href="">Về chúng mình</span>
+              <span className="content-link content-link-outer-right" href="">Liên hệ</span>
+            </div>
+            <div className="footer-copyright"><i className="far fa-copyright"></i>Copyright 2019 Cafédee</div>
           </div>
         </div>
       </div>

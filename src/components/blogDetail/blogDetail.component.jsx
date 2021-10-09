@@ -29,13 +29,13 @@ const BlogDetail = () => {
       }
     };
     getData();
-  }, []);
+  }, [id]);
 
 
   return (
     <div className="blog-detail">
       <div className="imgContainer">
-        <img src={imgUrl} alt="" />
+        <img src={imgUrl} alt="This is an image" />
       </div>
       <h2 className="title center">{title}</h2>
       <div className="blog-detail-header center">
@@ -55,11 +55,11 @@ const BlogDetail = () => {
           <span className="mr-5">{commentCount}</span>
           <span className="licon icon-dat"></span>
           <span className="mr-5">{dayUpload}</span>
-          <span class="licon icon-tag"></span>
+          <span className="licon icon-tag"></span>
           <Link to={{
             pathname: '/blog',
             state: tag
-          }}>{tag}<span class="licon icon-arr icon-black"></span></Link>
+          }}>{tag}<span className="licon icon-arr icon-black"></span></Link>
         </div>
       </div>
     </div>
