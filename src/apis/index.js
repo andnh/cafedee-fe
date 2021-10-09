@@ -26,3 +26,17 @@ export const getBlogDetailByTag = async (tag) => {
     console.log("ERROR", e);
   }
 }
+
+export const createBlogPost = async (newPost) => {
+  try {
+    const res = await axios({
+      method: 'POST',
+      url: 'http://localhost:8080/blog/create',
+      data: newPost
+    });
+    console.log(res.data);
+  } catch (err) {
+    // Handle Error Here
+    console.error(err);
+  }
+}

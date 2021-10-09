@@ -1,27 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-
 import { ReactComponent as Logo } from "../../assets/coffee-cup.svg";
-
-// import { auth } from "../../firebase/firebase.utils";
 import "./header.styles.scss";
 
-const Header = ({ currentUser }) => {
+
+
+const Header = () => {
   return (
     <div className="header">
       <Link className="logo-container" to="/">
         <Logo />
       </Link>
       <div className="option-container">
+        <Link to="/Blog/create" className="option">
+          Writting
+        </Link>
         <Link to="/About-us" className="option">
           About us
         </Link>
         <Link to="/Blog" className="option">
           Blog
-          </Link>
+        </Link>
         <Link className='option' to='/signin'>
           Sign in
-          </Link>
+        </Link>
       </div>
     </div>
   );

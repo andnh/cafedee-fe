@@ -9,6 +9,7 @@
     font-size: 1.25rem;
   }
   .logo-container {
+    width: 120px;
     display: flex;
     justify-content: space-between;
   }
@@ -20,7 +21,7 @@
   .footer-right {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
   }
   .fa-copyright {

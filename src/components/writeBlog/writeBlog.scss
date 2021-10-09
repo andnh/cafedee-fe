@@ -1,0 +1,37 @@
+.blog-form {
+  margin-top: 50px;
+  fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+  }
+
+  input,
+  textarea {
+    margin: 10px !important;
+  }
+
+  #submit {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+
+    &:hover {
+      background-color: #555555;
+      color: white;
+    }
+  }
+}

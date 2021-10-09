@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./blogOverview.style.scss";
 
@@ -21,17 +21,17 @@ const BlogOverview = (props) => {
           <Link to={{
             pathname: '/blog/detail',
             state: _id
-          }}>Read Article<span class="licon icon-arr icon-black"></span></Link>
+          }}>Read Article<span className="licon icon-arr icon-black"></span></Link>
         </div>
         <div className="utility-info">
           <ul className="utility-list">
             <li><span className="licon icon-like"></span>{likeCount}</li>
             <li><span className="licon icon-com"></span>{commentCount}</li>
             <li><span className="licon icon-dat"></span>{dayUpload}</li>
-            <li><span class="licon icon-tag"></span><Link to={{
+            <li><span className="licon icon-tag"></span><Link to={{
               pathname: '/blog',
               state: tag
-            }} onClick={handleClick}>{tag}<span class="licon icon-arr icon-black">
+            }} onClick={handleClick}>{tag}<span className="licon icon-arr icon-black">
 
               </span></Link></li>
           </ul>
